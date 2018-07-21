@@ -6,7 +6,7 @@ namespace isogram_csharp_problem
     {
         public static int Check_isogram (string str)
         {
-            str = str.ToLower();
+            //str = str.ToLower();
             char[] sortstr = str.ToCharArray();
 
             Array.Sort(sortstr);
